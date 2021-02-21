@@ -2,6 +2,7 @@
 
 ### Features
 - Auto generate proxy dll source code(x86, x64)
+- Modify source code template easily.
 
 ### Download
 
