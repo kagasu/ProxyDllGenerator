@@ -219,7 +219,7 @@ int main(int argc, char** argv)
     auto addressOfNames = reinterpret_cast<uint32_t*>(moduleAddress + exports->AddressOfNames);
     auto numberOfNames = static_cast<int>(exports->NumberOfNames);
 
-#ifdef  ENVIRONMENT64
+#ifdef ENVIRONMENT64
     generateProxyDllSourceCode64(moduleAddress, numberOfNames, addressOfNames, originalFileName, outputDirectory);
 #else
     generateProxyDllSourceCode32(moduleAddress, numberOfNames, addressOfNames, originalFileName, outputDirectory);
