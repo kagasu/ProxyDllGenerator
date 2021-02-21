@@ -165,11 +165,6 @@ void generateProxyDllSourceCode64(const uintptr_t moduleAddress, int numberOfNam
 
 int main(int argc, char** argv)
 {
-    // TODO: READMEに追加する
-    // vcpkg install boost:x86-windows
-    // vcpkg install boost:x64-windows
-    // vcpkg install fmt:x86-windows
-    // vcpkg install fmt:x64-windows
     boost::program_options::options_description description("ProxyDllGenerator");
     description.add_options()("dll,d", boost::program_options::value<std::string>(), "DLL file");
 
