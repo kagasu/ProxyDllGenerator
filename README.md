@@ -12,7 +12,7 @@ https://github.com/kagasu/ProxyDllGenerator/releases
 
 ### How to use
 ```
-ProxyDllGenerator --dll test.dll
+ProxyDllGenerator.exe --dll test.dll
 ```
 
 ### Build Requirements
