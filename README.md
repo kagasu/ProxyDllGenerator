@@ -5,6 +5,7 @@
 - Modify source code template easily.
 
 ### Download
+https://github.com/kagasu/ProxyDllGenerator/releases
 
 ### How to use
 ```
