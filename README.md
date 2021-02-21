@@ -27,6 +27,9 @@ vcpkg install fmt:x86-windows-static
 vcpkg install fmt:x64-windows-static
 ```
 
+# License
+[MIT License](https://github.com/kagasu/ProxyDllGenerator/blob/main/LICENSE)
+
 # Third Party License(s)
 - Boost ([Boost Software License, Version 1.0](http://www.boost.org/LICENSE_1_0.txt))
 - fmt ([MIT License](https://github.com/fmtlib/fmt/blob/master/LICENSE.rst))
