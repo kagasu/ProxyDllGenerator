@@ -2,6 +2,9 @@
 
 ### Features
 - Auto generate proxy dll source code(x86, x64)
+- Support special character(ex. `@`)  
+![](https://user-images.githubusercontent.com/1202244/108622241-ba939b80-747a-11eb-8175-02c13d9fbf2c.png)
+
 - Modify source code template easily.
 
 ### Download
